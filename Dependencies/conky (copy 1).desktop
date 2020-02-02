@@ -1,0 +1,19 @@
+[Desktop Entry]
+Categories=System;Monitor;
+Comment[en_AU]=
+Comment=Polybar-on-XFCE
+Exec=polybar mainbar
+GenericName[en_AU]=
+Icon=conky-logomark-violet
+MimeType=
+Name[en_AU]=
+Name=vicyos-hefftor-polybar
+Path=/$USER/.config/polybar/
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

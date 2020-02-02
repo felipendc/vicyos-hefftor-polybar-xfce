@@ -14,7 +14,7 @@
 [global/wm]
 ;https://github.com/jaagr/polybar/wiki/Configuration#global-wm-settings
 margin-top = 0
-margin-bottom = 0
+margin-bottom =
 
 [margin]
 for-modules = 1
@@ -43,13 +43,32 @@ format-offset =
 
 [colors]
 ; Nord theme ============
-background = ${xrdb:color0:#222}
+
+; HEFFTOR-HLWM Polybar Tiling Windows Manager Colors Backup 
+
+;background = ${xrdb:color0:#222}
 ;background = #312438
-foreground = ${xrdb:color7:#222}
-foreground-alt = ${xrdb:color4:#222}
-primary = ${xrdb:color2:#222}
-secondary = ${xrdb:color8:#222}
-third = ${xrdb:color2:#222}
+;foreground = ${xrdb:color7:#222}
+;foreground-alt = ${xrdb:color4:#222}
+;primary = ${xrdb:color2:#222}
+;secondary = ${xrdb:color8:#222}
+;third = ${xrdb:color2:#222}
+;adapta-red = #FF5252
+;adapta-yellow = #C9BC0E
+;adapta-lightgreen = #4DB6AC
+;adapta-green = #009688
+;============ 
+
+; XFCE Polybar Color Prototype!!!
+
+background = #000000
+;background = #000037
+
+foreground = #d3d0c8
+foreground-alt = #cc9999
+primary = #cc9999
+secondary = #747369
+third = #cc9999
 adapta-red = #FF5252
 adapta-yellow = #C9BC0E
 adapta-lightgreen = #4DB6AC
@@ -62,20 +81,24 @@ volume-med = #ebcb8b
 volume-max = #bf616a
 ; =======================
 
-################################################################################
-################################################################################
-############                  MAINBAR-HERBSTLUFTWM                  ############
-################################################################################
-################################################################################
+###################################################################
+###################################################################
+############                  MAINBAR                  ############
+###################################################################
+###################################################################
 
-[bar/mainbar-herbstluftwm]
-monitor = ${env:MONITOR}
+[bar/mainbar]
+
+;MONITOR=$(polybar -m|tail -1|sed -e 's/:.*$//g')
 ;monitor = DisplayPort-0
-;monitor-fallback = HDMI1
+;monitor-fallback = HDMI-0
+
 width = 100%
 height = 30
 offset-x = 
-offset-y = 1%
+
+; The space between the Polybar and the top edge of the monitor. (It gives a nice looking).
+offset-y = :4
 radius = 10
 
 fixed-center = true
@@ -89,7 +112,7 @@ line-size = 2
 line-color = #f00
 
 ;wm-restack = bspwm
-override-redirect = true
+override-redirect = false
 
 ; Enable support for inter-process messaging
 ; See the Messaging wiki page for more details.
@@ -97,7 +120,10 @@ enable-ipc = true
 
 ;border-size = 2
 ;border-top-size = 3
-;border-bottom-size = 0
+
+; The space between the Polybar and the windows. (It gives a nice looking).
+border-bottom-size = :6
+
 border-left-size  = 16
 border-right-size = 16
 border-color = #00000000
@@ -114,331 +140,35 @@ font-1 = "FontAwesome:size=11;3"
 font-2 = "Noto Sans Mono:size=15;4"
 font-3 = "Bitstream Vera Sans:style=Roman:size=15;4"
 
-; To import devicons/icomoon font to enable Chromium icon
+; Import devicons/icomoon font to enable Chromium icon
 font-4 = "icomoon:size=15;3"
 
+; Import icomoon-feather to enable checknetwork icon
+font-5 = "icomoon\-feather:size=13;3"
 
-modules-left = cpu-graph ewmh xwindow
-modules-center =  
-modules-right = urxvt pavucontrol chromium thunar volume temperature1 memory1 weather date powermenu 
+; Import Ubuntu-C to test icon
+font-6 = "Ubuntu Condensed:size=15;3"
 
-tray-detached = false
-tray-offset-x = 
-tray-offset-y = 0
-tray-padding = 
-tray-maxsize = 24
-tray-scale = 1.0
-tray-position = center
+;Optional modules
+; startmenu urxvt chromium thunar date
+
+modules-left = cpu-graph  ewmh  xwindow
+modules-center = xfcestart 
+modules-right =  checknetwork rofi pavucontrol updates volume temperature1 memory1 weather date1 clock  powermenu 
+;
+
+;tray-detached = false
+;tray-offset-x = 0
+;tray-offset-y = 0
+;tray-padding = 0
+;tray-maxsize = 24
+;tray-scale = 1
+;tray-position = false
 tray-background = ${colors.background}
+;tray-foreground = ${colors.foreground}
 
-
-scroll-up = herbstclient use_index -1
-scroll-down = herbstclient use_index +1
-
-
-
-
-################################################################################
-################################################################################
-############                  MAINBAR-HERBSTLUFTWM-EXTRA            ############
-################################################################################
-################################################################################
-
-[bar/mainbar-herbstluftwm-extra]
-monitor = ${env:MONITOR}
-;monitor = DisplayPort-0
-;monitor-fallback = HDMI1
-width = 100%
-height = 30
-offset-x = 
-offset-y = 1%
-radius = 10
-
-fixed-center = true
-bottom = false
-separator = 
-
-background = ${colors.background}
-foreground = ${colors.foreground}
-
-line-size = 2
-line-color = #f00
-
-;wm-restack = bspwm
-override-redirect = true
-
-; Enable support for inter-process messaging
-; See the Messaging wiki page for more details.
-enable-ipc = true
-
-;border-size = 2
-;border-top-size = 3
-;border-bottom-size = 0
-border-left-size  = 16
-border-right-size = 16
-border-color = #00000000
-
-padding-left = 1
-padding-right = 2
-
-module-margin-left = 1
-module-margin-right = 1
-
-;https://github.com/jaagr/polybar/wiki/Fonts
-font-0 = "Bitstream Vera Sans:style=Roman:size=10;2"
-font-1 = "FontAwesome:size=11;3"
-font-2 = "Noto Sans Mono:size=15;4"
-font-3 = "Bitstream Vera Sans:style=Roman:size=15;4"
-
-; To import devicons/icomoon font to enable Chromium icon
-font-4 = "icomoon:size=15;3"
-
-
-modules-left = cpu-graph ewmh xwindow
-modules-center =  
-modules-right = urxvt pavucontrol chromium thunar volume temperature1 memory1 weather date powermenu 
-
-tray-detached = false
-tray-offset-x = 
-tray-offset-y = 0
-tray-padding = 
-tray-maxsize = 24
-tray-scale = 1.0
-tray-position = center
-tray-background = ${colors.background}
-
-
-scroll-up = herbstclient use_index -1
-scroll-down = herbstclient use_index +1
-
-
-;////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-################################################################################
-################################################################################
-############                  MAINBAR-BSPWM                         ############
-################################################################################
-################################################################################
-
-[bar/mainbar-bspwm]
-monitor = ${env:MONITOR}
-;monitor = DisplayPort-0
-;monitor-fallback = HDMI1
-width = 100%
-height = 30
-offset-x = 
-offset-y = 1%
-radius = 10
-
-fixed-center = true
-bottom = false
-separator = 
-
-background = ${colors.background}
-foreground = ${colors.foreground}
-
-line-size = 2
-line-color = #f00
-
-;wm-restack = bspwm
-override-redirect = true
-
-; Enable support for inter-process messaging
-; See the Messaging wiki page for more details.
-enable-ipc = true
-
-;border-size = 2
-;border-top-size = 3
-;border-bottom-size = 0
-border-left-size  = 16
-border-right-size = 16
-border-color = #00000000
-
-padding-left = 1
-padding-right = 2
-
-module-margin-left = 1
-module-margin-right = 1
-
-;https://github.com/jaagr/polybar/wiki/Fonts
-font-0 = "Bitstream Vera Sans:style=Roman:size=10;2"
-font-1 = "FontAwesome:size=11;3"
-font-2 = "Noto Sans Mono:size=15;4"
-font-3 = "Bitstream Vera Sans:style=Roman:size=15;4"
-
-; To import devicons/icomoon font to enable Chromium icon
-font-4 = "icomoon:size=15;3"
-
-
-modules-left = cpu-graph ewmh xwindow
-modules-center =  
-modules-right = urxvt pavucontrol chromium thunar volume temperature1 memory1 weather date powermenu 
-
-tray-detached = false
-tray-offset-x = 
-tray-offset-y = 0
-tray-padding = 
-tray-maxsize = 24
-tray-scale = 1.0
-tray-position = center
-tray-background = ${colors.background}
-
-
-scroll-up = herbstclient use_index -1
-scroll-down = herbstclient use_index +1
-
-
-
-################################################################################
-################################################################################
-############                  MAINBAR-BSPWM-EXTRA                   ############
-################################################################################
-################################################################################
-
-[bar/mainbar-bspwm-extra]
-monitor = ${env:MONITOR}
-;monitor = DisplayPort-0
-;monitor-fallback = HDMI1
-width = 100%
-height = 30
-offset-x = 
-offset-y = 1%
-radius = 10
-
-fixed-center = true
-bottom = false
-separator = 
-
-background = ${colors.background}
-foreground = ${colors.foreground}
-
-line-size = 2
-line-color = #f00
-
-wm-restack = bspwm
-override-redirect = true
-
-; Enable support for inter-process messaging
-; See the Messaging wiki page for more details.
-enable-ipc = true
-
-;border-size = 2
-;border-top-size = 3
-;border-bottom-size = 0
-border-left-size  = 16
-border-right-size = 16
-border-color = #00000000
-
-padding-left = 1
-padding-right = 2
-
-module-margin-left = 1
-module-margin-right = 1
-
-;https://github.com/jaagr/polybar/wiki/Fonts
-font-0 = "Bitstream Vera Sans:style=Roman:size=10;2"
-font-1 = "FontAwesome:size=11;3"
-font-2 = "Noto Sans Mono:size=15;4"
-font-3 = "Bitstream Vera Sans:style=Roman:size=15;4"
-
-; To import devicons/icomoon font to enable Chromium icon
-font-4 = "icomoon:size=15;3"
-
-
-modules-left = cpu-graph ewmh xwindow
-modules-center =  
-modules-right = urxvt pavucontrol chromium thunar volume temperature1 memory1 weather date powermenu 
-
-tray-detached = false
-tray-offset-x = 
-tray-offset-y = 0
-tray-padding = 
-tray-maxsize = 24
-tray-scale = 1.0
-tray-position = center
-tray-background = ${colors.background}
-
-
-scroll-up = herbstclient use_index -1
-scroll-down = herbstclient use_index +1
-
-
-
-################################################################################
-################################################################################
-############                       MODULE BSPWM                     ############
-################################################################################
-################################################################################
-
-[module/bspwm]
-type = internal/bspwm
-
-enable-click = true
-enable-scroll = true
-reverse-scroll = true
-pin-workspaces = true
-
-ws-icon-0 = 1;
-ws-icon-1 = 2;
-ws-icon-2 = 3;
-ws-icon-3 = 4;
-ws-icon-4 = 5;
-ws-icon-5 = 6;
-ws-icon-6 = 7;
-ws-icon-7 = 8;
-ws-icon-8 = 9;
-ws-icon-9 = 10;
-ws-icon-default = " "
-
-
-format = <label-state>
-
-label-focused = 
-label-focused-background = ${colors.background}
-label-focused-padding = 2
-label-focused-foreground =  ${colors.third}
-
-label-occupied = 
-label-occupied-padding = 2
-label-occupied-foreground =  ${colors.foreground}
-label-occupied-background = ${colors.background}
-
-label-urgent = 
-label-urgent-padding = 2
-label-urgent-foreground = ${colors.alert}
-label-urgent-background = ${colors.background}
-label-urgent-underline = ${colors.alert}
-
-label-empty = •
-label-empty-foreground = ${colors.foreground}
-label-empty-padding = 2
-label-empty-background = ${colors.background}
-label-monocle = "  "
-label-monocle-foreground = ${colors.foreground}
-label-tiled = "  "
-label-tiled-foreground = ${colors.foreground}
-label-fullscreen = "  "
-label-fullscreen-foreground = ${colors.foreground}
-label-floating = "  "
-label-floating-foreground = ${colors.foreground}
-label-pseudotiled = "  "
-label-pseudotiled-foreground = ${colors.foreground}
-label-locked = "  "
-label-locked-foreground = ${colors.foreground}
-label-sticky = "  "
-label-sticky-foreground = ${colors.foreground}
-label-private =  "     "
-label-private-foreground = ${colors.foreground}
-
-; Separator in between workspaces
-;label-separator = |
-;label-separator-padding = 10
-;label-separator-foreground = #ffb52a
-
-format-foreground = ${colors.foreground}
-format-background = ${colors.background}
-
-;////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+;scroll-up = herbstclient use_index -1
+;scroll-down = herbstclient use_index +1
 
 
 
@@ -483,7 +213,7 @@ type = internal/memory
 
 ; Seconds to sleep between updates
 ; Default: 1
-interval = 6
+interval = 7
 ; Available tags:
 ;   <label> (default)
 ;   <bar-used>
@@ -636,7 +366,7 @@ interval = 30
 ; See "http://en.cppreference.com/w/cpp/io/manip/put_time" for details on how to format the date string
 ; NOTE: if you want to use syntax tags here you need to use %%{...}
 date = "%a %d %b"
-date-alt = "%d-%m-%Y"
+date-alt = "d-%m-%Y"
 time = %I:%M%P
 time-alt = %H:%M
 ;format-prefix = " "
@@ -763,9 +493,8 @@ thermal-zone = 0
 ; $ for i in /sys/class/hwmon/hwmon*/temp*_input; do echo "$(<$(dirname $i)/name): $(cat ${i%_*}_label 2>/dev/null || echo $(basename ${i%_*})) $(readlink -f $i)"; done
 ; to find path to desired file
 ; Default reverts to thermal zone setting
+hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon2/temp1_input
 
-;hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon2/temp1_input
-hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon1/temp1_input
 
 warn-temperature = 100 ; The default is "70". In my case, I set this to "100" by my own risk!
 format = <ramp> <label>
@@ -778,8 +507,8 @@ format-underline = #ff6600
 
 format-warn = <ramp> <label-warn>
 format-warn-underline = #c7254f
-label = %temperature%
-label-warn =  %temperature%
+label = %temperature-c%
+label-warn =  %temperature-c%
 label-warn-foreground = #c7254f
 
 ramp-0 = 
@@ -976,7 +705,6 @@ click-left = urxvt &
 label = %output%
 
 
-
 #################################
 ##########  Pavucontrol #########
 #################################
@@ -1010,3 +738,243 @@ format-prefix-foreground = #738adb
 format-underline = #8080ff
 click-left = chromium &
 label = %output%
+
+
+
+#########################
+########## Rofi #########
+#########################
+
+[module/rofi]
+type = custom/script
+exec = echo ""
+;exec = echo " "
+tail = true
+format-foreground = #8c8c8c
+format-background = ${colors.background}
+format-prefix-foreground = #738adb
+format-underline = #8c8c8c
+click-left = rofi -show run -filter
+
+
+
+#################################
+########## Whisker-Menu #########
+#################################
+
+[module/xfcestart]
+type = custom/script
+exec = echo " Start  "
+;exec = echo " "
+tail = true
+format-foreground = #ffb366
+format-background = ${colors.background}
+format-prefix-foreground = #ff9933
+format-underline = #ff9933
+click-left = xfce4-popup-whiskermenu
+
+
+;Use the line below to enable the auto-select
+;click-left = rofi -auto-select -show run -filter
+
+label = %output%
+
+
+#########################
+######### Kernel ########
+#########################
+
+[module/kernel]
+type = custom/script
+exec = uname -r
+tail = true
+interval = 1024
+
+format-foreground = ${colors.foreground}
+format-background = ${colors.background}
+format-prefix = "  "
+format-prefix-foreground = #0084FF
+format-underline = #0084FF
+
+
+#######################
+######### Date ########
+#######################
+
+[module/date1]
+;https://github.com/jaagr/polybar/wiki/Module:-date
+type = internal/date
+; Seconds to sleep between updates
+interval = 30
+; See "http://en.cppreference.com/w/cpp/io/manip/put_time" for details on how to format the date string
+; NOTE: if you want to use syntax tags here you need to use %%{...}
+date = "%a %d %b"
+date-alt = "%d-%m-%Y"
+time = %I:%M%P
+time-alt = %H:%M
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground}
+format-underline = #ff33cc
+
+format-foreground = ${colors.foreground}
+format-background = ${colors.background}
+label = %date%
+
+
+
+#########################
+######### Clock #########
+#########################
+
+[module/clock]
+;https://github.com/jaagr/polybar/wiki/Module:-date
+type = internal/date
+; Seconds to sleep between updates
+interval = 30
+; See "http://en.cppreference.com/w/cpp/io/manip/put_time" for details on how to format the date string
+; NOTE: if you want to use syntax tags here you need to use %%{...}
+time = %I:%M%P
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground}
+format-underline = #66d9ff
+format-foreground = ${colors.foreground}
+format-background = ${colors.background}
+label = %time%
+
+
+
+
+
+###########################
+######### Updates #########
+###########################
+
+[module/updates]
+type = custom/script
+
+; Available tokens:
+;   %counter%
+; Command to be executed (using "/usr/bin/env sh -c [command]")
+exec = ~/.config/polybar/scripts/updates.sh
+;format-prefix = 
+
+;exec = echo ""
+format-foreground = #b3b3ff
+
+format-background = ${colors.background}
+format-prefix-foreground = #738adb
+format-underline =  #9999ff
+
+
+
+; Conditional command that, if defined, needs to exit successfully
+; before the main exec command is invoked.
+; Default: ""
+;;exec-if = ""
+
+; Will the script output continous content?
+; Default: false
+tail = true
+
+; Seconds to sleep between updates
+; Default: 2 (0 if `tail = true`)
+interval = 20
+
+; Available tags:
+;   <output> - deprecated
+;   <label> (default)
+;;format = <label>
+;;format-background = #999
+;;format-foreground = #000
+;;format-padding = 4
+
+; Available tokens:
+;   %output%
+; Default: %output%
+;;label = %output:0:15:...%
+
+; Available tokens:
+;   %counter%
+;   %pid%
+;
+; "click-(left|middle|right)" will be executed using "/usr/bin/env sh -c [command]"
+click-left = ~/.config/polybar/scripts/vicyos-update-system.sh &
+;;click-middle = ~/.config/polybar/scripts/lupdates &
+;;click-right = ~/.config/polybar/scripts/lupdates &
+;;double-click-left = echo double left %counter%
+;;double-click-middle = echo double middle %counter%
+;;double-click-right = echo double right %counter%
+
+; Available tokens:
+;   %counter%
+;   %pid%
+;
+; "scroll-(up|down)" will be executed using "/usr/bin/env sh -c [command]"
+;;scroll-up = echo scroll up %counter%
+;;scroll-down = echo scroll down %counter%
+
+
+
+
+#################################
+######### Check Network #########
+#################################
+
+[module/checknetwork]
+type = custom/script
+; Available tokens:
+;   %counter%
+; Command to be executed (using "/usr/bin/env sh -c [command]")
+exec = ~/.config/polybar/scripts/check-network
+
+; Conditional command that, if defined, needs to exit successfully
+; before the main exec command is invoked.
+; Default: ""
+;;exec-if = ""
+
+; Will the script output continous content?
+; Default: false
+tail = true
+
+; Seconds to sleep between updates
+; Default: 2 (0 if `tail = true`)
+interval = 7
+
+; Available tags:
+;   <output> - deprecated
+;   <label> (default)
+;;format = <label>
+
+format-foreground = ${colors.foreground}
+format-background = ${colors.background}
+;format-underline = ${colors.foreground}
+
+;format-background = #999
+;;format-foreground = #000
+;;format-padding = 4
+
+; Available tokens:
+;   %output%
+; Default: %output%
+;;label = %output:0:15:...%
+
+; Available tokens:
+;   %counter%
+;   %pid%
+;
+; "click-(left|middle|right)" will be executed using "/usr/bin/env sh -c [command]"
+click-left = networkmanager_dmenu &
+click-middle = networkmanager_dmenu &
+click-right = networkmanager_dmenu &
+;;double-click-left = echo double left %counter%
+;;double-click-middle = echo double middle %counter%
+;;double-click-right = echo double right %counter%
+
+; Available tokens:
+;   %counter%
+;   %pid%
+;
+; "scroll-(up|down)" will be executed using "/usr/bin/env sh -c [command]"
+;;scroll-up = echo scroll up %counter%
+;;scroll-down = echo scroll down %counter%
+

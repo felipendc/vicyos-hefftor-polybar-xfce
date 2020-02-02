@@ -26,6 +26,7 @@ LANG = "en"
 #LANG = "hu"
 
 REQ = requests.get("http://api.openweathermap.org/data/2.5/weather?id={}&lang={}&appid={}&units={}".format(CITY, LANG,  API_KEY, UNITS))
+
 try:
     # HTTP CODE = OK
     if REQ.status_code == 200:
@@ -40,6 +41,8 @@ try:
 # So that, I get more room on the polybar (It's perfect if you own a Laptop).
         print("{} °{}".format(TEMP, UNIT_KEY)) 
     else:
-        print("Error: BAD HTTP STATUS CODE " + str(REQ.status_code))
+#        print("Error: BAD HTTP STATUS CODE " + str(REQ.status_code))
+        print("Error to fetch your CITY CODE, in weather.py") 
+        
 except (ValueError, IOError):
     print("Error: Unable print the data")

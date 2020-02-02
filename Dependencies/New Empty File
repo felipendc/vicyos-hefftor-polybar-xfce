@@ -1,0 +1,8 @@
+/home/vicyos/.config/autostart/
+
+
+.local/share/xfce4-panel-profiles
+
+trizen -S dmenu
+trizen -S rofi
+trizen -S stacer
