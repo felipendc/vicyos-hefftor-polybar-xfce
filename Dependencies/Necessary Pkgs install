@@ -1,0 +1,16 @@
+
+
+
+Commands for Linux Distribution based on Arch Linux
+
+trizen -S dmenu
+trizen -S rofi
+
+.....
+
+Commands for Linux Distribution based on Ubuntu or Debian
+
+sudo apt-get update -y
+sudo apt install -y dmenu
+sudo apt-get install -y rofi
+
