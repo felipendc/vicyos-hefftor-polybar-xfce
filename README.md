@@ -60,7 +60,7 @@ The default is:<br />
 
 Change it to your needs.<br />
 
-![Demo](https://i.imgur.com/0d3FxHD.png)
+![Demo](https://i.imgur.com/9Yd82PO.png)
 
 ------
 <br> 
