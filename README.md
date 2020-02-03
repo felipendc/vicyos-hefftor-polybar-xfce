@@ -62,6 +62,17 @@ Change it to your needs.<br />
 
 ![Demo](https://i.imgur.com/9Yd82PO.png)
 
+<br>
+<br>
+
+**Border bottom size  set with 16**<br />
+
+In this second picture I had set it with: "16", just to show you how it would feel like.<br />
+
+<pre>border-bottom-size = 16</pre>
+
+![Demo](https://i.imgur.com/dmJTGFC.png)
+
 ------
 <br> 
 <br> 
