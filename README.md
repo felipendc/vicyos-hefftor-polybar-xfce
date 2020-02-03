@@ -138,8 +138,7 @@ Change it to your needs.<br />
 
 It reminds me of the "global menu" from "Ubuntu 16.04" and "MACOS". Even though "Xwindows" doesn't act the same here. Hahaha. But I like it.<br />
 
-
-![Demo]()
+![Demo](https://i.imgur.com/VGz3pID.png)
 
 ------
 <br> 
