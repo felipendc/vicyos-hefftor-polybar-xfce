@@ -81,6 +81,21 @@ Change it to your needs.<br />
 ![Demo](https://i.imgur.com/0d3FxHD.png)
 
 ------
+
+<br> 
+<br> 
+
+***Border right and left resized to get more room*** <br />
+
+As you know, my laptop has a "14.0-inch display".<br />
+So, I had to resized the Polybar borders to get more space.<br /> 
+
+In this Polybar version I've set the the default to: 16 for each side.<br /> 
+You can play around with the numbers, to fit your needs.<br />
+
+![Demo](https://i.imgur.com/fKaxJ9w.png)
+
+------
 <br> 
 <br> 
 
