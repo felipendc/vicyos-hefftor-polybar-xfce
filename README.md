@@ -249,7 +249,16 @@ I got very happy when I managed to create this module made it work on my last [T
 <br> 
 <br> 
 
-![]()
+**A better way to know when to update the programs and packages!**<br />
+
+I was looking foward to bring this module from [vicyos-red-dark-polybar](https://github.com/felipendc/vicyos-red-dark-polybar) to this "Xfce Polybar" version!<br />
+
+I also adapted its module to work in this version. Oh god! that was very, very hard and tiring. <br />
+But, thanks God! I managed to make work in this version. <br />
+
+
+
+![Demo](https://i.imgur.com/P7E3rIv.png)
 
 ------
 <br> 
