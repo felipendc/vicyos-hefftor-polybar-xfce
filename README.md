@@ -27,7 +27,7 @@ Now, I will try to show you, what I've made, and how you can modify it, to help 
 
 **Aditional information:**<br /> 
 
-For a better experience, I do recomend you to try the Vicyos-Hefftor-Polybar together with [Arcolinux Hefftor Edition Xfce](https://www.youtube.com/watch?v=xRMeoQZFB3E).
+For a better experience, I do recomend you to try the "Vicyos-Hefftor-Polybar" together with [Arcolinux Hefftor Edition Xfce](https://www.youtube.com/watch?v=xRMeoQZFB3E).
 
 
 **I don't know if you have ever listened to this song... Hey, you can [give](https://www.youtube.com/watch?v=o3hf6lgC3-Q&t) it a [try](https://www.youtube.com/watch?v=d1NSgR4svTg&t)...** <br />
