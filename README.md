@@ -19,7 +19,7 @@ Because most of the time it's usual to see it with [Tiling Window Manager](https
 
 <pre>Herbstluftwm (HLWM), Bspwm, Awesome, i3, XMonad... Just to name a few.</pre>
 
-I just wanted something different! So, I came up with this idea to try to adapt a Polybar to Xfce.<br />
+I just wanted something different! So, I came up with this idea, to try to adapt a Polybar to Xfce.<br />
 
 That was very tiring, by the way... but after a long and hard work, I made it!<br />
 Now, I will try to show you, what I've made, and how you can modify it, to help you to suit your needs!<br /> 
