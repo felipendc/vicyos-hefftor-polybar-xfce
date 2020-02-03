@@ -11,4 +11,4 @@
 # If you are running a Linux Distribution based on Ubuntu or Debian, 
 # you will need to change: "sudo pacman -Syu" to "sudo apt-get update && sudo apt-get upgrade".
 
-urxvt -e sh -c "sudo pacman -Syu"
+urxvt -e sh -c "yay -Syu --noconfirm"
