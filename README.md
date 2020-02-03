@@ -257,6 +257,7 @@ I also adapted its module to work in this version. Oh god! that was very, very h
 But, thanks God! I managed to make it functional in this version. <br />
 
 <br>
+
 **Warning:** <br />
 
 I've adapted it to work on in Arch based distros. <br />
