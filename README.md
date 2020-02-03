@@ -102,7 +102,15 @@ And before you ask me: Why does it have two fire icons? It's to fire up the Whis
 <br> 
 <br> 
 
-![]()
+**Am I the only one who noticed that the "System-Tray" isn't on the Polybar?** So, where's it, though?<br />
+
+Well, that's another reason why the "Start-Button" is in the center. The "System-Tray" is already difined on the "xfce-taskbar" by default. If I try to enable it on the Polybar, it won't work.<br />
+
+But, don't worry! I made a package with my xfce-taskbar presets. In the video where I show you how to install the Polybar I show how to restore all of my settings.<br />
+
+And you will get an xfce-taskbar equal to the picture below:<br />
+
+![Demo](https://i.imgur.com/h5ifkYr.png)
 
 ------
 <br> 
@@ -174,6 +182,6 @@ And before you ask me: Why does it have two fire icons? It's to fire up the Whis
 <br> 
 <br> 
 
-![Demo](https://github.com/felipendc/vicyos-hefftor-polybar-xfce/blob/master/Pic/ArcoLinux_2020-02-02_18-51-33.png)
+![Demo]()
 
 ------
