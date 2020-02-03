@@ -202,7 +202,11 @@ In this Polybar version for Xfce, I seperated the "Date" from the "Clock" module
 <br> 
 <br> 
 
-![]()
+**MPD module is in the building!!!**<br />
+
+If you like use [mpd](https://www.youtube.com/watch?v=NNNl7p9LiKw), you can enable it manually. It's not enabled on the Polybar by default.<br />
+
+![Demo](https://i.imgur.com/YJhcKZH.png)
 
 ------
 <br> 
