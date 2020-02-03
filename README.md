@@ -34,7 +34,7 @@ For a better experience, I do recomend you to try the "Vicyos-Hefftor-Polybar" t
 ![Demo](https://i.imgur.com/VEt6nrp.png)
 
 ------
-
+<br> 
 
 **Let's start talking about the space between the "Polybar" and a "Window"!**<br /> 
 
