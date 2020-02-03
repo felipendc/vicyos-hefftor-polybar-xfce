@@ -65,11 +65,11 @@ Change it to your needs.<br />
 <br>
 <br>
 
-**Border bottom size  set with 16**<br />
+**Border bottom size  set with 12**<br />
 
 In this second picture I had set it with: "16", just to show you how it would feel like.<br />
 
-<pre>border-bottom-size = 16</pre>
+<pre>border-bottom-size = 12</pre>
 
 ![Demo](https://i.imgur.com/dmJTGFC.png)
 
