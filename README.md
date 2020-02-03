@@ -254,7 +254,7 @@ I got very happy when I managed to create this module made it work on my last [T
 I was looking foward to bring this module from [vicyos-red-dark-polybar](https://github.com/felipendc/vicyos-red-dark-polybar) to this "Xfce Polybar" version!<br />
 
 I also adapted its module to work in this version. Oh god! that was very, very hard and tiring. <br />
-But, thanks God! I managed to make work in this version. <br />
+But, thanks God! I managed to make it functional in this version. <br />
 
 
 
