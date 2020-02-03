@@ -158,7 +158,7 @@ e.g:<br />
 <pre>Cloudy sky, 23°C  
 Clean sky, 30°C</pre>
 
-The line: 38, is my modified version, where it just prints out the Weather results in Celsius, (°C) with no string (Letters information).<br />
+The line: 42, is my modified version, where it just prints out the Weather results in Celsius, (°C) with no string (Letters information).<br />
 
 e.g:<br /> 
 
