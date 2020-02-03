@@ -84,7 +84,7 @@ Change it to your needs.<br />
 <br> 
 <br> 
 
-**The "Start Button" is in the building!!!** What a minute... what is it and why is it in the center?<br />
+**The "Start Button" is in the building!!!**   What a minute... what is it and why is it in the center?<br />
 
 Hey, relax... I can explan it.<br />
  
