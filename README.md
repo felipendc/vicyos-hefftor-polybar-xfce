@@ -171,7 +171,7 @@ As in the screenshot down below.<br />
 <br>
 <br>
 
-## Additional Information!
+## Weather Module - Additional Information!
 
 To switch to your weather "city or location", you just need to edit the file "weather.py" at: <br />
 
