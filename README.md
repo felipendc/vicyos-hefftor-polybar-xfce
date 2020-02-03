@@ -84,7 +84,16 @@ Change it to your needs.<br />
 <br> 
 <br> 
 
-![]()
+**The "Start Button" is in the building!!!** <br /> What a minute... what is it and why is it in the center?
+
+Hey, relax... I can explan it.
+ 
+It's pretty simple. This button "fires up" the Whisker-Menu.
+I think that, this was the perfect position to place it. "And you will understand why it's in the center" pretty soon...
+And before you ask me: Why does it have two fire icons? It's to fire up the Whisker-Menu, and it gives the Polybar a nice look and feel.
+
+![Demo](https://i.imgur.com/2gP1vOy.png)
+![Demo](https://i.imgur.com/EPXGQkP.png)
 
 ------
 <br> 
