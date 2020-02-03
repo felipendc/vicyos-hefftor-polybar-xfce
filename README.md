@@ -43,6 +43,10 @@ Hey, boy... I told you, I wanted something different! Most of the time, when a u
 
 ![Demo](https://i.imgur.com/ywnwnGG.png)
 
+
+**How can I change the size of the space between the "Polybar" and the "Window"?**<br /> 
+
+
 ------
 <br> 
 <br> 
