@@ -22,10 +22,10 @@ Because most of the time it's usual to see it with [Tiling Window Manager](https
 So, I came up with this idea to try to adapt a Polybar to Xfce.<br />
 
 That was very tiring, by the way... but after a long and hard work, I made it!<br />
-Now, I will try to show you what I have made and how to modify it to help you to suit your needs!.<br /> 
+Now, I will try to show you, what I've made, and how you can modify it, to help you to suit your needs!.<br /> 
 
 
-**Aditional information**<br /> 
+**Aditional information:**<br /> 
 
 For a better experience, I do recomend you to try the Vicyos-Hefftor-Polybar together with [Arcolinux Hefftor Edition Xfce](https://www.youtube.com/watch?v=xRMeoQZFB3E).
 
