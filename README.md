@@ -292,7 +292,7 @@ Whenever I rebooted the computer the Polybar didn't autostart with the System...
  
 But after a long 3 days of trials and errors and a "Solo Brainstorm" (Solo = Alone) Hahaha... I finally managed to create this script and adapt it to work with this Polybar.<br />
 
-Yes! I took three days to make it funcional. Hahahahah. Because I hadn't find any clue on the internet. So, I decided to mashup (tailor it) [Erick's]() video tutorial to this polybar. And here we are!<br />
+Yes! I took three days to make it funcional. Hahahahah. Because I hadn't find any clue on the internet. So, I decided to mashup (tailor it) [Erick's](https://www.youtube.com/watch?v=HOc8ZAGyJPU) video tutorial to this polybar. And here we are!<br />
 
 Don't forget to move or copy it to your "autostart" folder:<br />
 
@@ -306,18 +306,15 @@ Doing this, this Polybar will autostart with the Operating System!<br />
 <br> 
 <br> 
 
-![]()
+### Special Thanks to:
 
-------
-<br> 
-<br> 
+[Felipe Ndc (Vicyos)](https://www.youtube.com/channel/UCHgDwde2kTdKI53LRm3pTtQ/videos) Yeah. It's me.<br />
+[adi1090x](https://github.com/adi1090x/polybar-themes)<br />
+[Erick Doubis](https://www.youtube.com/user/maclover696)<br />
+[Brad Heffernan](https://www.youtube.com/user/shamrock677)<br />
+[Marcos Oliveira](https://terminalroot.com.br/2019/07/uma-colecao-de-temas-prontos-para-seu-polybar.html)<br />
+[ChmOd](https://discordapp.com/invite/R2amEEz) in ArcoLinux-Group on Discord<br />
 
-![]()
 
-------
-<br> 
-<br> 
 
-![Demo]()
-
-------
+##
