@@ -241,7 +241,7 @@ To solve it, you just need to watch my [video](https://www.youtube.com/watch?v=a
 
 ***Pavucontrol is also in the building, in this version!!!*** <br />
 
-I got very happy when I managed to create this module made it work on my last [Tiling Window Manager polybar](https://github.com/felipendc/vicyos-hefftor-polybar) that I decided to bring it to this Xfce version,<br />
+I got very happy when I managed to create this module made it work on my last [Tiling Window Manager polybar](https://github.com/felipendc/vicyos-hefftor-polybar), so, I decided to bring it to this Xfce version,<br />
 
 ![Demo](https://i.imgur.com/a4MUJZD.png)
 
