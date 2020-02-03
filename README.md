@@ -1,7 +1,7 @@
 ![logo](https://raw.githubusercontent.com/adi1090x/polybar-themes/master/previews/logo.png) <br />
 Down below you will find a modified version of the Polybar baked-in [Arcolinux-Hefftor-HLWM](https://www.youtube.com/watch?v=iwWSqCDeWgk).<br /> 
 
-**If you want to try it out and don't know how to install it...**Very soon, I show step-by-step how to install the polybar on your Xfce. <br />
+**If you want to try it out and don't know how to install it...** Very soon, I show step-by-step how to install the polybar on your Xfce. <br />
 
 ------
 
