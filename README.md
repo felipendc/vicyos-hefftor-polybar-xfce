@@ -66,7 +66,19 @@ Change it to your needs.<br />
 <br> 
 <br> 
 
-![]()
+**There is also a space between the "top of the screen" and the "Polybar"**<br />
+
+If you also want to change the size between the "top of the screen" and the "Polybar, you just need to change the line:
+
+<pre>offset-y = </pre>
+
+The default is:<br />
+
+<pre>offset-y = :4</pre>
+
+Change it to your needs.<br />
+
+![Demo](https://i.imgur.com/0d3FxHD.png)
 
 ------
 <br> 
