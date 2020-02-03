@@ -3,14 +3,16 @@
 
 Commands for Linux Distribution based on Arch Linux
 
-trizen -S dmenu
-trizen -S rofi
+sudo pacman -S polybar
+sudo pacman -S dmenu
+sudo pacman -S rofi
 
 .....
 
 Commands for Linux Distribution based on Ubuntu or Debian
 
 sudo apt-get update -y
-sudo apt install -y dmenu
+sudo apt-get install polybar
+sudo apt-get install -y dmenu
 sudo apt-get install -y rofi
 
