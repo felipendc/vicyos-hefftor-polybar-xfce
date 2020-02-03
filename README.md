@@ -212,7 +212,13 @@ If you like use [mpd](https://www.youtube.com/watch?v=NNNl7p9LiKw), you can enab
 <br> 
 <br> 
 
-![]()
+**CPU THERMAL SENSOR PATH** How can I get it?<br />
+
+If you are having problems with the "CPU Thermal Sensor Module" not showing on your Polybar, you will need to give the Polybar the exactly "path" (location) of your CPU Thermal Sensor.<br /> 
+
+To solve it, you just need to watch my [video](https://www.youtube.com/watch?v=arD0JUP0pi0&list=PLEHnzNeoCcNxPukIVaMPCO_QRxZtYPvD3&index=2), where I show you how to do it.<br />  
+
+![Demo](https://i.imgur.com/QNCmLEW.png)
 
 ------
 <br> 
