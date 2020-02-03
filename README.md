@@ -164,7 +164,7 @@ e.g:<br />
 
 <pre>30°C</pre> 
 
-As in the screenshot down below.<br />
+As in the screenshot down below:<br />
 
 ![Demo](https://i.imgur.com/ETF2tEO.png)
 
