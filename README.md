@@ -256,9 +256,17 @@ I was looking foward to bring this module from [vicyos-red-dark-polybar](https:/
 I also adapted its module to work in this version. Oh god! that was very, very hard and tiring. <br />
 But, thanks God! I managed to make it functional in this version. <br />
 
+<br>
+**Warning:** <br />
 
+I've adapted it to work on in Arch based distros. <br />
+But, don't worry, in the picture below, I show you what to do if you are running Ubuntu or any other Distro based on Ubuntu or Debian.<br />
 
 ![Demo](https://i.imgur.com/P7E3rIv.png)
+
+##
+
+![Demo](https://i.imgur.com/V2mqa7m.png)
 
 ------
 <br> 
