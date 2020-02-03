@@ -10,7 +10,7 @@ Down below you will find a modified version of the Polybar baked-in [Arcolinux-H
 
 ------
 
-**The begining...** <br /> You may be thinking: Hm... Cool, but... why Xfce?<br />
+**The begining...** You may be thinking: Hm... Cool, but... why Xfce?<br />
 
 This is the question, this is why! Let me think where to start from....<br />
 I've never seen any Polybar been used on an Xfce, so far, then, I thought, why not? Why not to bring this beaulty to Xfce?<br />
