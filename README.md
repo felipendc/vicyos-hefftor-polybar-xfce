@@ -116,7 +116,19 @@ And you will get an xfce-taskbar equal to the picture below:<br />
 <br> 
 <br> 
 
-![]()
+***Now, let's talk a little bit about this CPU-GRAPH. And, Nope. It's not a "Sound Spectrum". Yes! you were wrong. Hahahaha I was too, when I saw it for the first time.***<br />
+
+The screenshot down below, shows us the Cpu-Graph module. I took this screenshot just to show you that if you want to increase the velocity of the interval between the bars updates, you just need to chenge the line:<br /> 
+
+<pre>interval =</pre> 
+
+The default is:<br /> 
+
+<pre>interval = 0.08</pre> 
+
+Change it to your needs.<br />
+
+![Demo](https://i.imgur.com/7g2TNcr.png)
 
 ------
 <br> 
