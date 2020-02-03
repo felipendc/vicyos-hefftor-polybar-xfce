@@ -102,7 +102,7 @@ And before you ask me: Why does it have two fire icons? It's to fire up the Whis
 <br> 
 <br> 
 
-![]()
+![](https://camo.githubusercontent.com/c7b54c90c00acd774a0ac8b567a1dd3fa472b84c/68747470733a2f2f692e696d6775722e636f6d2f32675031764f792e706e67)
 
 ------
 <br> 
