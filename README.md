@@ -5,7 +5,7 @@ Down below you will find a modified version of the Polybar baked-in [Arcolinux-H
 
 ------
 
-***Warning:*** This Polybar just gives support to Xfce. I don't know if it will work on KDE. (You can try it, by your own risk!).
+***Warning:*** This Polybar just gives support to Xfce. I don't know if it will work on KDE. (You can try it, by your own risk!)
 <br />
 
 ------
