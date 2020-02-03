@@ -284,7 +284,23 @@ But, don't worry, in the picture below, I show you what to do if you are running
 <br> 
 <br> 
 
-![]()
+**How to auto-start the this Polybar together with Xfce**<br />
+
+That was the most difficult part of this Polybar developement.<br />
+
+Whenever I rebooted the computer the Polybar didn't autostart with the System...<br />
+ 
+But after a long 3 days of trials and errors and a "Solo Brainstorm" (Solo = Alone) Hahaha... I finally managed to create this script and adapt it to work with this Polybar.<br />
+
+Yes! I took three days to make it funcional. Hahahahah. Because I hadn't find any clue on the internet. So, I decided to mashup (tailor it) [Erick's]() video tutorial to this polybar. And here we are!<br />
+
+Don't forget to move or copy it to your "autostart" folder:<br />
+
+<pre>/home/user/.config/autostart/</pre>
+
+Doing this, this Polybar will autostart with the Operating System!<br />
+
+![Demo](https://i.imgur.com/1xm6vOl.png)
 
 ------
 <br> 
