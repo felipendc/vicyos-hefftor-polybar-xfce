@@ -41,7 +41,7 @@ For a better experience, I do recomend you to try the "Vicyos-Hefftor-Polybar" t
 
 Hey, boy... I told you, I wanted something different! Most of the time, when a user maximaze a window, it gets lined up with the "taskbar". I think, this small detail, gave the Polybar a better looking!
 
-![]()
+![Demo](https://i.imgur.com/ywnwnGG.png)
 
 ------
 <br> 
