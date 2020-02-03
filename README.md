@@ -13,7 +13,8 @@ Down below you will find a modified version of the Polybar baked-in [Arcolinux-H
 **The begining...** You may be thinking: Hm... Cool, but... why Xfce?<br />
 
 This is the question, this is why! Let me think where to start from....<br />
-I've never seen any Polybar been used on an Xfce, so far, then, I thought, why not? Why not to bring this beaulty to Xfce?<br />
+
+I've never seen any Polybar been used on an Xfce, so far. Then, I thought, why not? Why not to bring this beaulty to Xfce?<br />
 Because most of the time it's usual to see it with [Tiling Window Manager](https://www.youtube.com/watch?v=Lj1IfdKY0CU), such as:<br /> 
 
 <pre>Herbstluftwm (HLWM),Bspwm, Awesome, i3, XMonad... Just to name a few.</pre>
