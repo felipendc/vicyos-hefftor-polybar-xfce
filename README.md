@@ -136,7 +136,7 @@ Change it to your needs.<br />
 
 ***The Xwindows is "still" in the building !!! Here is why...***<br />
 
-It reminds me of the "global menu" from "Ubuntu 16.04" and "MACOS". Even though "Xwindows" doesn't act the same here. Hahaha. But I like it.<br />
+It reminds me of the "global menu" from "Ubuntu 16.04" and "Mac O.S". Even though "Xwindows" doesn't act the same here. Hahaha. But I like it.<br />
 
 ![Demo](https://i.imgur.com/VGz3pID.png)
 
