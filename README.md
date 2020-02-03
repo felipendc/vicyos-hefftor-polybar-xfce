@@ -144,7 +144,44 @@ It reminds me of the "global menu" from "Ubuntu 16.04" and "Mac O.S". Even thoug
 <br> 
 <br> 
 
-![]()
+***Weather Module, and why it's very import to bring it up***<br />
+
+This is the part where you will learn how to do your modifications!<br /> 
+I decided to take this screenshot, to make it easy for you to understand.<br />
+As my laptop has a very small screen. I modified the weather code, so that the weather icone would fit the screen.<br />
+
+The line: 34, is the default configuration. And I commented using the "#". The default line prints the Weather result in Celsius, (°C) and with informatition if the sky is cloudy.<br />
+
+e.g:<br /> 
+
+
+<pre>Cloudy sky, 23°C  
+Clean sky, 30°C</pre>
+
+The line: 38, is my modified version, where it just prints out the Weather results in Celsius, (°C) with no string (Letters information).<br />
+
+e.g:<br /> 
+
+<pre>30°C</pre> 
+
+As in the screenshot down below.<br />
+
+![Demo](https://i.imgur.com/ETF2tEO.png)
+
+<br>
+<br>
+
+## Additional Information!
+
+To switch to your weather "city or location", you just need to edit the file "weather.py" at: <br />
+
+<pre>/home/user/.config/polybar/scripts/</pre>
+
+or<br />
+
+<pre> nano ~/.config/polybar/scripts/weather.py</pre>
+
+![Demo](https://i.imgur.com/oGj7B9Z.png)
 
 ------
 <br> 
