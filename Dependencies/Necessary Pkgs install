@@ -4,6 +4,7 @@
 Commands for Linux Distribution based on Arch Linux
 
 sudo pacman -Syu
+sudo pacman -S yay
 sudo pacman -S polybar
 sudo pacman -S dmenu
 sudo pacman -S rofi
