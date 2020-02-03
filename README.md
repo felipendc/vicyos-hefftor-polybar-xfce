@@ -187,7 +187,7 @@ or<br />
 <br> 
 <br> 
 
-**Date and Clock Modules are separated from each other and got new icons**<br />
+**Date and Clock Modules are separated from each other and got new icons!**<br />
 
 In this Polybar version for Xfce, I seperated the "Date" from the "Clock" module. I also added especific icon for each one.<br /> It gave them a better feel.<br />
 
