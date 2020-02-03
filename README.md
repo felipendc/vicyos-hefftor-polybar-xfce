@@ -46,6 +46,16 @@ Hey, boy... I told you, I wanted something different! Most of the time, when a u
 
 **How can I change the size of the space between the "Polybar" and the "Window"?**<br /> 
 
+It's very simple. You just need to edit the line:<br />
+
+<pre>border-bottom-size =</pre>
+
+The default is:<br />
+
+<pre>border-bottom-size = :6</pre>
+
+Change it to your needs.<br />
+
 ![Demo](https://i.imgur.com/0d3FxHD.png)
 
 ------
