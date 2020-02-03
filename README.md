@@ -267,6 +267,10 @@ I was looking foward to bring this module from [vicyos-red-dark-polybar](https:/
 I also adapted its module to work in this version. Oh god! that was very, very hard and tiring. <br />
 But, thanks God! I managed to make it functional in this version. <br />
 
+Whenever a new "update" is available, you just need to click on the "Box Icon" on the Polybar and a terminal window will pop up asking for your password to update all of the outdated packages!<br />
+
+When the update installation finish, the terminal window will close it down. <br />
+ 
 <br>
 
 **Warning:** <br />
