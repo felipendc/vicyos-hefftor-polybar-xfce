@@ -5,7 +5,8 @@ Down below you will find a modified version of the Polybar baked-in [Arcolinux-H
 
 ------
 
-[![https://img.youtube.com/vi/zfLYqie-q7A/maxresdefault.jpg](https://www.youtube.com/watch?v=zfLYqie-q7A&list=PLEHnzNeoCcNxPukIVaMPCO_QRxZtYPvD3&index=4)
+[![Watch the video](https://img.youtube.com/vi/zfLYqie-q7A/maxresdefault.jpg)](https://www.youtube.com/watch?v=zfLYqie-q7A&list=PLEHnzNeoCcNxPukIVaMPCO_QRxZtYPvD3&index=4)
+
 
 
 ------
