@@ -3,8 +3,7 @@ Down below you will find a modified version of the Polybar baked-in [Arcolinux-H
 
 **If you want to try it out and don't know how to install it...** In this [video](https://www.youtube.com/watch?v=zfLYqie-q7A&list=PLEHnzNeoCcNxPukIVaMPCO_QRxZtYPvD3&index=4) I show step-by-step how to install the polybar on your Xfce. <br />
 
-[![Watch the video](https://img.youtube.com/vi/zfLYqie-q7A/maxresdefault.jpg](https://www.youtube.com/watch?v=zfLYqie-q7A&list=PLEHnzNeoCcNxPukIVaMPCO_QRxZtYPvD3&index=4)
-
+[![Watch the video](https://img.youtube.com/vi/zfLYqie-q7A/maxresdefault.jpg)](https://www.youtube.com/watch?v=zfLYqie-q7A&list=PLEHnzNeoCcNxPukIVaMPCO_QRxZtYPvD3&index=4)
 
 ------
 
