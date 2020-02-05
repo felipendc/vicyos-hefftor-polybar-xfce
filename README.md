@@ -246,6 +246,14 @@ If you are having problems with the "CPU Thermal Sensor Module" not showing on y
 
 To solve it, you just need to watch my [video](https://www.youtube.com/watch?v=arD0JUP0pi0&list=PLEHnzNeoCcNxPukIVaMPCO_QRxZtYPvD3&index=2), where I show you how to do it.<br />  
 
+<br>
+
+But, if you already know your way around, and you just want to know how to get your Cpu Thermal Sensor path, you just need to use this command:<br />
+
+<pre>find /sys/devices -type f -name "temp*_input" </pre>
+
+For more information, watch the video above.<br />
+
 ![Demo](https://i.imgur.com/QNCmLEW.png)
 
 ------
