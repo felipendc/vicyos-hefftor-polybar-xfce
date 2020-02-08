@@ -150,11 +150,11 @@ font-5 = "icomoon\-feather:size=13;3"
 font-6 = "Ubuntu Condensed:size=15;3"
 
 ;Optional modules
-; startmenu urxvt chromium thunar date
+; startmenu urxvt chromium thunar date weather
 
 modules-left = cpu-graph  ewmh  xwindow
 modules-center = xfcestart 
-modules-right =  checknetwork rofi pavucontrol updates volume temperature1 memory1 weather date1 clock  powermenu 
+modules-right =  checknetwork rofi pavucontrol updates volume temperature1 memory1 date1 clock powermenu 
 ;
 
 ;tray-detached = false
