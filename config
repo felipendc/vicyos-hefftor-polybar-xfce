@@ -494,8 +494,8 @@ thermal-zone = 0
 ; to find path to desired file
 ; Default reverts to thermal zone setting
 
-hwmon-path = /sys/devices/platform/thinkpad_hwmon/hwmon/hwmon3/temp1_input
-;hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon3/temp1_input
+;hwmon-path = /sys/devices/platform/thinkpad_hwmon/hwmon/hwmon3/temp1_input
+hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon3/temp1_input
 
 
 warn-temperature = 100 ; The default is "70". In my case, I set this to "100" by my own risk!
