@@ -2,7 +2,7 @@
 Categories=System;Monitor;
 Comment[en_AU]=
 Comment=Polybar-on-XFCE
-Exec=polybar --reload vicyos-mainbar
+Exec=polybar vicyos-mainbar
 GenericName[en_AU]=
 Icon=conky-logomark-violet
 MimeType=
