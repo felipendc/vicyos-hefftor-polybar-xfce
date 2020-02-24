@@ -24,7 +24,6 @@ for-modules = 1
 throttle-output = 5
 throttle-output-for = 10
 throttle-input-for = 30
-screenchange-reload = true
 compositing-background = over
 compositing-foreground = over
 compositing-overline = over
@@ -92,6 +91,8 @@ volume-max = #bf616a
 ;MONITOR=$(polybar -m|tail -1|sed -e 's/:.*$//g')
 ;monitor = DisplayPort-0
 ;monitor-fallback = HDMI-0
+
+screenchange-reload = true
 
 width = 100%
 height = 30
