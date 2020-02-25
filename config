@@ -89,8 +89,8 @@ volume-max = #bf616a
 [bar/vicyos-mainbar]
 
 MONITOR=$(polybar -m|tail -1|sed -e 's/:.*$//g')
-monitor = DisplayPort-0
-monitor-fallback = HDMI-0
+;monitor = DisplayPort-0
+;monitor-fallback = HDMI-0
 
 screenchange-reload = true
 
