@@ -60,7 +60,8 @@ format-offset =
 
 ; XFCE Polybar Color Prototype!!!
 
-background = #000000
+background = #191a1a
+;background = #000000
 ;background = #000037
 
 foreground = #d3d0c8
